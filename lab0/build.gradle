@@ -1,0 +1,64 @@
+plugins {
+  id "com.diffplug.spotless" version "5.7.0"
+  id "jacoco"
+  id 'java-library'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+// Define Variables
+ext {
+    jupiterVersion  = '5.7.0'
+    mockitoVersion  = '3.5.15'
+    log4jVersion    = '2.13.3'
+}
+
+// configure formatting
+spotless {
+    java {
+        target project.fileTree('.') {
+        include '**/*.java'
+        exclude '**/generated/**/*.*'
+        }
+        googleJavaFormat()
+    }
+}
+
+dependencies {
+    // testing frameworks
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${jupiterVersion}"
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    // temporarly support JUnit4 tests
+    testImplementation("junit:junit:4.13")
+    testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.7.0")
+    testImplementation "org.mockito:mockito-core:${mockitoVersion}"
+    testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
+
+    if (file("libs/exerciseCommonBase.jar").exists())
+    {
+        implementation files('libs/exerciseCommonBase.jar')
+    }
+
+}
+
+test {
+    useJUnitPlatform() // Enable JUnit 5 (Gradle 4.6+).
+
+    maxHeapSize = '1G'
+
+    testLogging {
+        events "passed"
+        exceptionFormat "full" // default is "short"
+    }
+}
+
+// configure reporting for codecov
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled false
+    }
+}

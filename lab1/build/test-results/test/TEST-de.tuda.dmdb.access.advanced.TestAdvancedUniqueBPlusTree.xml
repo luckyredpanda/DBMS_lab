@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.tuda.dmdb.access.advanced.TestAdvancedUniqueBPlusTree" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-12T14:48:48" hostname="chenweihaodeMBP" time="0.029">
+  <properties/>
+  <testcase name="testIndexReverseInsert()" classname="de.tuda.dmdb.access.advanced.TestAdvancedUniqueBPlusTree" time="0.026"/>
+  <testcase name="testIndexKeyNotExisting()" classname="de.tuda.dmdb.access.advanced.TestAdvancedUniqueBPlusTree" time="0.001"/>
+  <testcase name="testIndexForwardInsert()" classname="de.tuda.dmdb.access.advanced.TestAdvancedUniqueBPlusTree" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

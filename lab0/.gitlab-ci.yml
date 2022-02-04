@@ -1,0 +1,18 @@
+stages:
+  - grading
+
+variables:
+  GIT_STRATEGY: fetch
+
+run_tests:
+  stage: grading
+  tags:
+      - sdms-tag
+  only:
+    refs:
+      - master
+  script:
+    - cp /tmp/eval_dir/build.gradle .
+    - echo "Running gradle test"
+    - gradle clean test
+

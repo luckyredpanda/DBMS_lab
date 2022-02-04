@@ -1,0 +1,82 @@
+de/tuda/dmdb/storage/AbstractPage.java
+ de.tuda.dmdb.storage.AbstractPage
+de/tuda/dmdb/buffer/EnumReplacementPolicy.java
+ de.tuda.dmdb.buffer.EnumReplacementPolicy
+de/tuda/dmdb/catalog/objects/DataType.java
+ de.tuda.dmdb.catalog.objects.DataType
+de/tuda/dmdb/storage/AbstractDiskManager.java
+ de.tuda.dmdb.storage.AbstractDiskManager
+de/tuda/dmdb/catalog/objects/DatabaseObject.java
+ de.tuda.dmdb.catalog.objects.DatabaseObject
+de/tuda/dmdb/operator/Operator.java
+ de.tuda.dmdb.operator.Operator
+de/tuda/dmdb/buffer/ClockReplacementBase.java
+ de.tuda.dmdb.buffer.ClockReplacementBase
+de/tuda/dmdb/access/AbstractBitmapIndex.java
+ de.tuda.dmdb.access.AbstractBitmapIndex
+de/tuda/dmdb/buffer/BufferManagerBase.java
+ de.tuda.dmdb.buffer.BufferManagerBase
+de/tuda/dmdb/storage/AbstractRecord.java
+ de.tuda.dmdb.storage.AbstractRecord
+de/tuda/dmdb/access/AbstractUniqueIndex.java
+ de.tuda.dmdb.access.AbstractUniqueIndex
+de/tuda/dmdb/buffer/LRUReplacementBase.java
+ de.tuda.dmdb.buffer.LRUReplacementBase
+de/tuda/dmdb/storage/types/EnumSQLType.java
+ de.tuda.dmdb.storage.types.EnumSQLType
+de/tuda/dmdb/catalog/objects/IndexType.java
+ de.tuda.dmdb.catalog.objects.IndexType
+de/tuda/dmdb/operator/TableScanBase.java
+ de.tuda.dmdb.operator.TableScanBase
+de/tuda/dmdb/catalog/objects/Table.java
+ de.tuda.dmdb.catalog.objects.Table
+de/tuda/dmdb/buffer/ReplacementPolicy.java
+ de.tuda.dmdb.buffer.ReplacementPolicy
+de/tuda/dmdb/storage/types/SQLVarcharBase.java
+ de.tuda.dmdb.storage.types.SQLVarcharBase
+de/tuda/dmdb/storage/types/SQLIntegerBase.java
+ de.tuda.dmdb.storage.types.SQLIntegerBase
+de/tuda/dmdb/storage/EnumPageType.java
+ de.tuda.dmdb.storage.EnumPageType
+de/tuda/dmdb/storage/Record.java
+ de.tuda.dmdb.storage.Record
+de/tuda/dmdb/access/AbstractTable.java
+ de.tuda.dmdb.access.AbstractTable
+de/tuda/dmdb/catalog/objects/Attribute.java
+ de.tuda.dmdb.catalog.objects.Attribute
+de/tuda/dmdb/access/RecordIdentifier.java
+ de.tuda.dmdb.access.RecordIdentifier
+de/tuda/dmdb/catalog/objects/Index.java
+ de.tuda.dmdb.catalog.objects.Index
+de/tuda/dmdb/storage/types/SQLRowIdentifier.java
+ de.tuda.dmdb.storage.types.SQLRowIdentifier
+de/tuda/dmdb/storage/types/AbstractSQLValue.java
+ de.tuda.dmdb.storage.types.AbstractSQLValue
+de/tuda/dmdb/catalog/CatalogManager.java
+ de.tuda.dmdb.catalog.CatalogManager
+ de.tuda.dmdb.catalog.CatalogManager$1
+de/tuda/dmdb/access/LeafBase.java
+ de.tuda.dmdb.access.LeafBase
+de/tuda/dmdb/access/AbstractIndexElement.java
+ de.tuda.dmdb.access.AbstractIndexElement
+de/tuda/dmdb/access/exercise/Node.java
+ de.tuda.dmdb.access.exercise.Node
+de/tuda/dmdb/buffer/exercise/LRUReplacement.java
+ de.tuda.dmdb.buffer.exercise.LRUReplacement
+de/tuda/dmdb/access/exercise/Leaf.java
+ de.tuda.dmdb.access.exercise.Leaf
+de/tuda/dmdb/access/exercise/UniqueBPlusTree.java
+ de.tuda.dmdb.access.exercise.UniqueBPlusTree
+de/tuda/dmdb/access/HeapTableBase.java
+ de.tuda.dmdb.access.HeapTableBase
+de/tuda/dmdb/operator/exercise/TableScan.java
+ de.tuda.dmdb.operator.exercise.TableScan
+de/tuda/dmdb/access/NodeBase.java
+ de.tuda.dmdb.access.NodeBase
+de/tuda/dmdb/access/UniqueBPlusTreeBase.java
+ de.tuda.dmdb.access.UniqueBPlusTreeBase
+de/tuda/dmdb/buffer/exercise/ClockReplacement.java
+ de.tuda.dmdb.buffer.exercise.ClockReplacement
+de/tuda/dmdb/buffer/exercise/BufferManager.java
+ de.tuda.dmdb.buffer.exercise.BufferManager
+ de.tuda.dmdb.buffer.exercise.BufferManager$1

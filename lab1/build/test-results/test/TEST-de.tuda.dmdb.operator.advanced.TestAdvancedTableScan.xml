@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.tuda.dmdb.operator.advanced.TestAdvancedTableScan" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-12T14:48:49" hostname="chenweihaodeMBP" time="0.002">
+  <properties/>
+  <testcase name="testTableScanInit()" classname="de.tuda.dmdb.operator.advanced.TestAdvancedTableScan" time="0.001"/>
+  <testcase name="testTableScanMultiplePages()" classname="de.tuda.dmdb.operator.advanced.TestAdvancedTableScan" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
