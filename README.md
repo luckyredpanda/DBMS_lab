@@ -1,6 +1,6 @@
-# Advanced_Database_Management_System
+# Database_Management_System
 
-21ws Scalable Data Management Systems lab
+21ws Database Management Systems lab
 
 Details please check slides in taskslides folder.
 
